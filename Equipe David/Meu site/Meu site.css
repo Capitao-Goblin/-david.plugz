@@ -1,0 +1,32 @@
+header {
+    background-color: white;
+}
+
+nav {
+    background-color: #ffde59; width: 100%; height: 40px;
+}
+
+h1 {
+    color: black;
+}
+
+.img-card {
+    
+}
+
+.card {
+    width: 20px;
+    border: 1px solid white;
+    background-color: #ffde59;
+    margin: 1rem;
+    box-shadow: black 7px 7px 20px 0 yellow;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}

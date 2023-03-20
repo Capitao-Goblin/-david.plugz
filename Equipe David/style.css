@@ -1,0 +1,117 @@
+* { 
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+.fundo-vermelho {
+    background-color: red;
+}
+
+.letra-branca {
+    color: white;
+}
+
+#fundo-roxo {
+    /* use # para referenciar ids */
+    background-color: blueviolet;
+}
+body {
+    background-image: url(https://media.tenor.com/YqNWIVF-Y_wAAAAd/toco-novo-basquete-brasil.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+font-family: 'Source Serif Pro', serif;
+}
+table,
+        th,
+        td {
+            border: 1px groove green;
+            /* border-collapse: collapse;*/
+            border-radius: 10px;
+            background-color: rgb(255, 255, 255);
+            color: red;
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 10px;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        th,
+        td {
+            padding: 5px;
+        }
+
+        caption {
+            color: black;
+        }
+
+        td:hover {
+            background-color: blue;
+        }
+        h1 {
+            color: red;
+        }
+
+        article {
+            color: rgb(166, 0, 255);
+            text-align: justify;
+        }
+
+        #teste-overflow {
+            border: 1px solid black;
+            width: 30%;
+            height: 50px;
+            overflow: autoh;
+        }
+
+        .container {
+            width: 100%;
+            height: 300px;
+            background-color: blueviolet;
+            position: relative;
+        }
+        
+        #topo-esq {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+       }
+       #topo-dir {
+        position: absolute;
+        top: 0;
+        right: 0;
+       }
+       #centro {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+       }
+       #baixo-esq {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+       }
+       #baixo-dir {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+       }
+
+       #img-opacidade {
+        opacity: 0.1;
+       }
+       

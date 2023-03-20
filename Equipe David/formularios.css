@@ -1,0 +1,8 @@
+div {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-image: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+}

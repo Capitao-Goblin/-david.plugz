@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="atividade3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div><!-- lampada -->
+        <button id="" onclick="Desliga()">Desliga</button>
+        <img src="pic_bulboff.gif" alt="" id="img">
+
+        <button id="" onclick="Liga()">Liga</button>
+        <img src="" alt="" id="img">
+    </div><!-- lampada -->
+    
+    <div style="padding: 2rem;"><!-- mostrar senha -->
+        <form action="senha">
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha">
+       <button type="button" id="show">Mostrar senha</button>
+    </form>
+    </div><!-- mostrar senha -->
+
+    <div><!-- form com js -->
+        <form name="f1" action="atividade3.js" onsubmit="return matchpass()">
+            senha:<input type="password" name="password" /><br/>
+            <br>
+            confirme sua senha:<input type="password" name="password2"/><br/>
+            <input type="submit">
+        </form>
+    </div><!-- form com js -->
+
+
+    <div style="padding-top: 1.5rem;"><!-- calculadora -->
+        <div class="fundo">
+            <h1>By David Lucas</h1>
+            <div class="calculadora">
+            <h1>Calculadora</h1>
+            <p id="resultado"></p>
+            <table>
+            <tr>
+            <td><button class="botao" onclick="clean()">C</button></td>
+            <td><button class="botao" onclick="back()"><</button></td>
+            <td><button class="botao" onclick="insert('/')">/</button></td>
+            <td><button class="botao" onclick="insert('*')">X</button></td>
+            </tr>
+            <tr>
+            <td><button class="botao" onclick="insert('7')">7</button></td>
+            <td><button class="botao" onclick="insert('8')">8</button></td>
+            <td><button class="botao" onclick="insert('9')">9</button></td>
+            <td><button class="botao" onclick="insert('-')">-</button></td>
+            </tr>
+            <tr>
+            <td><button class="botao" onclick="insert('4')">4</button></td>
+            <td><button class="botao" onclick="insert('5')">5</button></td>
+            <td><button class="botao" onclick="insert('6')">6</button></td>
+            <td><button class="botao" onclick="insert('+')">+</button></td>
+            </tr>
+            <tr>
+            <td><button class="botao" onclick="insert('1')">1</button></td>
+            <td><button class="botao" onclick="insert('2')">2</button></td>
+            <td><button class="botao" onclick="insert('3')">3</button></td>
+            <td rowspan="2"><button class="botao" style="height: 106px;" onclick="calcular()">=</button></td>
+            </tr>
+            <tr>
+            <td colspan="2"><button class="botao" style="width: 106px;" onclick="insert('0')">0</button></td>
+            <td><button class="botao" onclick="insert('.')">.</button></td>
+            </tr>
+            </table>
+            </div>
+            </div>
+    </div><!-- calculadora -->
+
+
+
+    <script src="atividade3.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+.background {
+    background-image: url(https://img.olympicchannel.com/images/image/private/t_s_pog_staticContent_hero_xl/f_auto/v1675701618/primary/gwu1csepgfthx1dml0f1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    transition: all;
+    background-color: #fff;
+    padding: 14px 14%;
+}
+
+.logo {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cabeçalho-link {
+    display: flex;
+    font-size: 1rem;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+    color: black;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover {
+    color: #ffde59;
+}
+
+.icon span {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon span:hover {
+    color: #ffde59;
+}
+
+.meio {
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+}
+
+.meio h1 {
+    font-size: 4rem;
+}
+
+.meio button {
+    background-color: #ffde59;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.meio button:hover {
+    background-color: black;
+    transform: scaleY(1.2);
+}
+
+section {
+    padding-top: 7rem;
+}
+
+section h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.conteiner-card1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.cards img{
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+}
+
+.cards img:hover {
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+}
+
+.cta {
+    background: url(https://maceioalgovbr.dhost.cloud/uploads/imagens/24-05-2022-Skate-Gigante-Praca-do-Skate-Maceio-e-massa-Foto-Emile-Valoes-11.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.text-cta {
+    padding-left: 5rem;
+}
+
+.text-cta h6 {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    margin-bottom: 14px;
+}
+
+.text-cta h4 {
+    font-size: 3.3rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.text-cta a{
+    background-color: #ffde59;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.text-cta a:hover {
+    background-color: black;
+    transform: scaleY(1.2);
+
+}
+
+.conteiner-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.conteiner-p img:hover {
+    transform: scale(0.9) translateY(5px);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.produtos {
+    background-color: #ffde59;
+}
+
+.produtos img{
+    width: 250px;
+    height: auto;
+}
+
+.contato {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: black;
+    padding: 8rem;
+    margin-top: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax (200px, auto));
+}
+
+.meio-contato h3 {
+    color: #fff;
+    font-size: 23px;
+    padding-bottom: 1.6rem;
+}
+
+.meio-contato h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+
+}
+
+.meio-contato li a {
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: 0.35s ease;
+}
+
+.text-last {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
